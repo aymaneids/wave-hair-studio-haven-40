@@ -37,7 +37,7 @@ const Navigation = () => {
               </Link>
             ))}
             <Button asChild>
-              <a href="tel:304-872-1234">Book Now</a>
+              <Link to="/book">Book Now</Link>
             </Button>
           </div>
 
@@ -69,7 +69,7 @@ const Navigation = () => {
             ))}
             <div className="px-3 py-2">
               <Button className="w-full" asChild>
-                <a href="tel:304-872-1234">Book Now</a>
+                <Link to="/book">Book Now</Link>
               </Button>
             </div>
           </div>
