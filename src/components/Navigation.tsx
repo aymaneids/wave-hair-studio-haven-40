@@ -9,7 +9,7 @@ const Navigation = () => {
 
   const navItems = [
     { name: 'Home', path: '/' },
-    { name: 'Team Wave', path: '/team' },
+    { name: 'Team Divas', path: '/team' },
     { name: 'Gallery', path: '/gallery' },
     { name: 'Join Us', path: '/careers' },
     { name: 'Contact', path: '/contact' },
@@ -21,7 +21,7 @@ const Navigation = () => {
         <div className="flex justify-between h-16">
           <div className="flex items-center">
             <Link to="/" className="font-tenor text-xl text-primary hover:text-primary/80 transition-colors">
-              WAVE Hair Studio
+              Hair Divas Salon
             </Link>
           </div>
 
@@ -37,7 +37,7 @@ const Navigation = () => {
               </Link>
             ))}
             <Button asChild>
-              <a href="tel:920-319-9335">Book Now</a>
+              <a href="tel:304-872-1234">Book Now</a>
             </Button>
           </div>
 
@@ -69,7 +69,7 @@ const Navigation = () => {
             ))}
             <div className="px-3 py-2">
               <Button className="w-full" asChild>
-                <a href="tel:920-319-9335">Book Now</a>
+                <a href="tel:304-872-1234">Book Now</a>
               </Button>
             </div>
           </div>

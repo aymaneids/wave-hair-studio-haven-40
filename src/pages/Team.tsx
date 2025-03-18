@@ -6,18 +6,18 @@ import { Instagram } from "lucide-react";
 
 const stylists = [
   {
-    name: "Sarah Johnson",
+    name: "Jessica Adams",
     photo: "/stylists/sarah.jpg",
-    specialties: ["Color Expert", "Cutting Specialist"],
-    bio: "With over 10 years of experience, Sarah specializes in creative color and precision cuts.",
-    instagram: "sarahwavehair",
+    specialties: ["Color Specialist", "Balayage Expert"],
+    bio: "With over 10 years of experience, Jessica specializes in creating stunning balayage and dimensional color.",
+    instagram: "jessicahairdivas",
   },
   {
-    name: "Michael Chen",
+    name: "Olivia Taylor",
     photo: "/stylists/michael.jpg",
-    specialties: ["Extensions", "Styling"],
-    bio: "Michael brings his artistic vision to every style, specializing in extensions and formal styling.",
-    instagram: "michaelwavehair",
+    specialties: ["Blonding", "Vivids"],
+    bio: "Olivia is passionate about creating beautiful blonde transformations and vibrant fashion colors.",
+    instagram: "oliviahairdivas",
   },
 ];
 
@@ -28,7 +28,7 @@ const Team = () => {
       <section className="py-24">
         <div className="container px-4">
           <h1 className="font-tenor text-3xl md:text-5xl text-primary text-center mb-16">
-            Meet the Talented Stylists at WAVE Hair Studio
+            Meet the Talented Stylists at Hair Divas Salon
           </h1>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {stylists.map((stylist) => (

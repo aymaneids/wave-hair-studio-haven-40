@@ -3,9 +3,10 @@ import Navigation from "@/components/Navigation";
 import { Card } from "@/components/ui/card";
 
 const categories = [
-  { name: "Haircuts", images: ["/gallery/cuts-1.jpg", "/gallery/cuts-2.jpg"] },
-  { name: "Color", images: ["/gallery/color-1.jpg", "/gallery/color-2.jpg"] },
-  { name: "Styling", images: ["/gallery/style-1.jpg", "/gallery/style-2.jpg"] },
+  { name: "Balayage", images: ["/gallery/cuts-1.jpg", "/gallery/cuts-2.jpg"] },
+  { name: "Blonding", images: ["/gallery/color-1.jpg", "/gallery/color-2.jpg"] },
+  { name: "Lived-in Color", images: ["/gallery/style-1.jpg", "/gallery/style-2.jpg"] },
+  { name: "Vivids", images: ["/gallery/style-1.jpg", "/gallery/style-2.jpg"] },
 ];
 
 const Gallery = () => {

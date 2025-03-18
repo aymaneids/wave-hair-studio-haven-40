@@ -5,12 +5,12 @@ import { Button } from "@/components/ui/button";
 import { Mail } from "lucide-react";
 
 const benefits = [
-  "Flexible scheduling options",
-  "Marketing support",
-  "Prime location in Beaver Dam",
-  "Modern, well-maintained facilities",
-  "Collaborative, supportive environment",
-  "Ongoing education opportunities",
+  "Collaborative team environment",
+  "Continuing education opportunities",
+  "Competitive compensation",
+  "Retail commission",
+  "Growing clientele in Summersville",
+  "Modern, well-equipped salon",
 ];
 
 const Careers = () => {
@@ -20,7 +20,7 @@ const Careers = () => {
       <section className="py-24">
         <div className="container px-4">
           <h1 className="font-tenor text-3xl md:text-5xl text-primary text-center mb-16">
-            Join the WAVE Hair Studio Team!
+            Join the Hair Divas Team!
           </h1>
           
           <div className="grid md:grid-cols-2 gap-12 max-w-5xl mx-auto">
@@ -42,11 +42,11 @@ const Careers = () => {
               <CardContent className="pt-6">
                 <h2 className="font-tenor text-2xl mb-6">Interested?</h2>
                 <p className="text-muted-foreground mb-6">
-                  We're always looking for talented stylists to join our team. Whether you're 
-                  interested in booth rental or employment opportunities, we'd love to hear from you.
+                  We're always looking for talented stylists who are passionate about color to join our team. 
+                  If you love creating beautiful hair and providing exceptional client experiences, we'd love to hear from you.
                 </p>
                 <Button className="w-full" asChild>
-                  <a href="mailto:careers@wavehair.com">
+                  <a href="mailto:careers@hairdivas.com">
                     <Mail className="mr-2" />
                     Contact Us About Opportunities
                   </a>

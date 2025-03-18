@@ -4,29 +4,29 @@ import { Card, CardContent } from "@/components/ui/card";
 
 const services = [
   {
-    title: "Haircuts",
-    description: "Precision cuts tailored to your style",
-    icon: Scissors,
-  },
-  {
-    title: "Color",
-    description: "Expert color and highlights",
+    title: "Balayage",
+    description: "Hand-painted highlights for natural dimension",
     icon: Palette,
   },
   {
-    title: "Styling",
-    description: "Special occasion and everyday styling",
-    icon: Heart,
-  },
-  {
-    title: "Treatments",
-    description: "Nourishing hair treatments",
+    title: "Blonding",
+    description: "Expertise in all shades of blonde",
     icon: Star,
   },
   {
-    title: "Extensions",
-    description: "Length and volume solutions",
+    title: "Lived-in Color",
+    description: "Low-maintenance color with natural grow-out",
+    icon: Heart,
+  },
+  {
+    title: "Vivids",
+    description: "Bold, vibrant fashion colors",
     icon: Sparkles,
+  },
+  {
+    title: "Haircuts",
+    description: "Precision cuts tailored to your style",
+    icon: Scissors,
   },
 ];
 
