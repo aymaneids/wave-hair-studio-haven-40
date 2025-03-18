@@ -28,8 +28,8 @@ const Hero = () => {
           <Button size="lg" variant="secondary" className="text-base" asChild>
             <Link to="/team">Meet Our Team</Link>
           </Button>
-          <Button size="lg" variant="outline" className="text-base">
-            Book Online
+          <Button size="lg" variant="outline" className="text-base" asChild>
+            <Link to="/book">Book Online</Link>
           </Button>
         </div>
       </div>

@@ -3,10 +3,42 @@ import Navigation from "@/components/Navigation";
 import { Card } from "@/components/ui/card";
 
 const categories = [
-  { name: "Balayage", images: ["/gallery/cuts-1.jpg", "/gallery/cuts-2.jpg"] },
-  { name: "Blonding", images: ["/gallery/color-1.jpg", "/gallery/color-2.jpg"] },
-  { name: "Lived-in Color", images: ["/gallery/style-1.jpg", "/gallery/style-2.jpg"] },
-  { name: "Vivids", images: ["/gallery/style-1.jpg", "/gallery/style-2.jpg"] },
+  { 
+    name: "Balayage", 
+    images: [
+      "/gallery/cuts-1.jpg", 
+      "/gallery/cuts-2.jpg", 
+      "https://images.unsplash.com/photo-1605497788044-5a32c7078486?w=800&auto=format", 
+      "https://images.unsplash.com/photo-1562322140-8baeececf3df?w=800&auto=format"
+    ] 
+  },
+  { 
+    name: "Blonding", 
+    images: [
+      "/gallery/color-1.jpg", 
+      "/gallery/color-2.jpg", 
+      "https://images.unsplash.com/photo-1600948836101-f9ffda59d250?w=800&auto=format", 
+      "https://images.unsplash.com/photo-1519699047748-de8e457a634e?w=800&auto=format"
+    ] 
+  },
+  { 
+    name: "Lived-in Color", 
+    images: [
+      "/gallery/style-1.jpg", 
+      "/gallery/style-2.jpg", 
+      "https://images.unsplash.com/photo-1492106087820-71f1a00d2b11?w=800&auto=format", 
+      "https://images.unsplash.com/photo-1580618672591-eb180b1a973f?w=800&auto=format"
+    ] 
+  },
+  { 
+    name: "Vivids", 
+    images: [
+      "/gallery/style-1.jpg", 
+      "/gallery/style-2.jpg", 
+      "https://images.unsplash.com/photo-1589285874274-74db86ec8936?w=800&auto=format", 
+      "https://images.unsplash.com/photo-1588670312917-b2e2ce6e1e03?w=800&auto=format"
+    ] 
+  },
 ];
 
 const Gallery = () => {
